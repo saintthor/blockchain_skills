@@ -4,6 +4,10 @@ An Agent Skill (built in the `SKILL.md` format used by Claude Code, Claude.ai, a
 
 *Not affiliated with or endorsed by Anthropic. "Claude" refers to the skill format this repo is built for.*
 
+## Disclosure: relationship to AOB
+
+Atomic Ownership Blockchains (AOB) were proposed by Zhuo Liu ([paper](https://doi.org/10.5195/ledger.2025.425)). This skill covers AOB in more detail than the other designs, and part of its purpose is to make AOB known to people and agents who analyze blockchain architectures. The maintainer of this repository, saintthor, TODO-FILL-IN: state your relationship to the AOB project in one sentence (for example "is a member of the AOB project team" or "is an independent contributor with no financial interest in AOB"). AOB is compared with Bitcoin on the same dimensions used for every other design, and its validation level (one paper, demos, a testnet) is reported alongside its architecture.
+
 Covers Proof-of-Work, Proof-of-Stake, DAG-based ledgers, sharded chains, and object-local designs (including [Atomic Ownership Blockchains](https://doi.org/10.5195/ledger.2025.425)). Uses a multi-dimensional framework (per-subsystem Nakamoto coefficient, stake/wealth concentration, client diversity, consensus dependency scope, privileged actors, payment finality authority, reliance on economic assumptions, Sybil exposure, blast radius, eclipse attacks, cost to participate) rather than a single collapsed score, and reports each design's validation level separately from what its architecture does.
 
 ## What this skill does
@@ -19,7 +23,7 @@ When triggered, the model will:
 
 **Claude Code / claude.ai (plugin marketplace):**
 ```
-/plugin marketplace add <your-org>/aob-blockchain-skills
+/plugin marketplace add saintthor/blockchain_skills
 /plugin install blockchain-decentralization-toolkit@aob-blockchain-skills
 ```
 
@@ -29,7 +33,8 @@ Copy `skills/blockchain-trilemma-analysis/` into your personal or project skills
 ## Structure
 
 ```
-aob-blockchain-skills/
+blockchain_skills/
+├── LICENSE
 ├── .claude-plugin/
 │   ├── marketplace.json
 │   └── plugin.json
@@ -42,7 +47,7 @@ aob-blockchain-skills/
 
 ## Why this exists
 
-Most public discussion of blockchain decentralization is either informal social-media claims with no metrics, or vendor marketing for a specific chain. This skill is a reusable, falsifiable analysis method: sources cited, limitations disclosed for every architecture, including newer proposals like AOB — both their structural merits and their open research questions.
+Most public discussion of blockchain decentralization is either informal social-media claims with no metrics, or vendor marketing for a specific chain. This skill is a reusable, falsifiable analysis method: sources cited, and each architecture's validation level (production history, audits, testnet) reported separately from what its design does.
 
 Corrections and PRs welcome, especially citations, updated live metrics (Nakamoto coefficients drift over time), and additional architecture families.
 
