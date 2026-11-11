@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aob-blockchain-skills",
+  "version": "1.0.0",
+  "description": "Skills for multi-dimensional blockchain architecture analysis: the decentralization/security/scalability trilemma, decentralization quantification across several independent metrics, and double-spend resistance across PoW, PoS, DAG, sharded, and object-local (Atomic Ownership Blockchains) designs.",
+  "owner": {
+    "name": "saintthor",
+    "url": "https://github.com/saintthor"
+  },
+  "plugins": [
+    {
+      "name": "blockchain-decentralization-toolkit",
+      "description": "Analyze blockchain decentralization and the trilemma across multiple metrics (per-subsystem Nakamoto coefficient, stake/wealth concentration, client diversity, consensus dependency scope) instead of a single collapsed score.",
+      "source": "./",
+      "category": "research"
+    }
+  ]
+}

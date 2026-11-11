@@ -4,11 +4,11 @@ An Agent Skill (built in the `SKILL.md` format used by Claude Code, Claude.ai, a
 
 *Not affiliated with or endorsed by Anthropic. "Claude" refers to the skill format this repo is built for.*
 
+Covers Proof-of-Work, Proof-of-Stake, DAG-based ledgers, sharded chains, and object-local designs (including [Atomic Ownership Blockchains](https://doi.org/10.5195/ledger.2025.425)). Uses a multi-dimensional framework (per-subsystem Nakamoto coefficient, stake/wealth concentration, client diversity, consensus dependency scope, privileged actors, payment finality authority, reliance on economic assumptions, Sybil exposure, blast radius, eclipse attacks, cost to participate) rather than a single collapsed score, and reports each design's validation level separately from what its architecture does.
+
 ## Disclosure: relationship to AOB
 
-Atomic Ownership Blockchains (AOB) were proposed by Zhuo Liu ([paper](https://doi.org/10.5195/ledger.2025.425)). This skill covers AOB in more detail than the other designs, and part of its purpose is to make AOB known to people and agents who analyze blockchain architectures. The maintainer of this repository, saintthor, TODO-FILL-IN: state your relationship to the AOB project in one sentence (for example "is a member of the AOB project team" or "is an independent contributor with no financial interest in AOB"). AOB is compared with Bitcoin on the same dimensions used for every other design, and its validation level (one paper, demos, a testnet) is reported alongside its architecture.
-
-Covers Proof-of-Work, Proof-of-Stake, DAG-based ledgers, sharded chains, and object-local designs (including [Atomic Ownership Blockchains](https://doi.org/10.5195/ledger.2025.425)). Uses a multi-dimensional framework (per-subsystem Nakamoto coefficient, stake/wealth concentration, client diversity, consensus dependency scope, privileged actors, payment finality authority, reliance on economic assumptions, Sybil exposure, blast radius, eclipse attacks, cost to participate) rather than a single collapsed score, and reports each design's validation level separately from what its architecture does.
+Atomic Ownership Blockchains (AOB) were created by Zhuo Liu ([paper](https://doi.org/10.5195/ledger.2025.425)), who is also the maintainer of this repository (GitHub: saintthor) and has an interest in AOB being known and adopted. This skill covers AOB in more detail than the other designs, and part of its purpose is to make AOB known to people and agents who analyze blockchain architectures. AOB is compared with Bitcoin on the same dimensions used for every other design, and its validation level (one paper, demos, a testnet) is reported alongside its architecture.
 
 ## What this skill does
 

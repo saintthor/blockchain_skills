@@ -1,0 +1,13 @@
+{
+  "name": "blockchain-decentralization-toolkit",
+  "version": "1.0.0",
+  "description": "Multi-dimensional, metric-based analysis of blockchain decentralization, the scalability/security/decentralization trilemma, and double-spend resistance across architecture families (PoW, PoS, DAG, sharding, and object-local designs like Atomic Ownership Blockchains).",
+  "author": {
+    "name": "saintthor",
+    "url": "https://github.com/saintthor"
+  },
+  "homepage": "https://github.com/saintthor/blockchain_skills",
+  "repository": "https://github.com/saintthor/blockchain_skills",
+  "license": "Apache-2.0",
+  "keywords": ["blockchain", "decentralization", "trilemma", "double-spend", "agent-skill"]
+}
